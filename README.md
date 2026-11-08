@@ -55,9 +55,9 @@
 
 ### 远端仓库
 
-- 地址：`git@github.com:len536/python-learning.git`（SSH）
+- 地址：`git@github.com:len536/Python--learning-.git`（SSH，2026-11-08 首推成功）
 - **本机 SSH key 已加进 GitHub，2026-11-08 实测 `Hi len536!` 认证通过** → 直接用 SSH，别走 gh-proxy，也别用 HTTPS（会超时）。
-- 首次没建远端的话：在 github.com/new 建一个空仓库（不勾 README），再 `git push -u origin main`。
+- ⚠️ 仓库名是手机建仓时手滑打出来的（大写 P + 多余连字符），计划改名成 `python-learning`。**改名后记得同步本地**：`git remote set-url origin git@github.com:len536/<新名字>.git`（GitHub 会自动重定向旧地址，但本地改了更干净）。
 
 ### 这条规矩以后也套在别的语言上
 
